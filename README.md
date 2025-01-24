@@ -19,8 +19,11 @@ The Auropay SDK provides a streamlined integration for merchants to interact wit
 
 ### Requirements
 
-- **Programming Language**: Compatible with [supported language versions] (e.g., PHP, .NET, Node.js, Java, etc.).
-- **API Keys**: Access your API key and secret from the Auropay merchant dashboard.
+**API Keys**: Access your API key and secret from the Auropay merchant dashboard.
+```properties
+API_KEY 	: "FF************************E3A8"
+API_SECRET 	: "wqr0i2O******************************ANtO1TA="
+```
 
 ---
 
@@ -35,15 +38,6 @@ Add the Auropay SDK to your project by including it as a dependency in your mave
   <artifactId>payments-java</artifactId>
   <version>0.0.1</version>
 </dependency>
-```
-
----
-
-### Prerequisites for Configuration
-
-```properties
-API_KEY 	: "FF************************E3A8"
-API_SECRET 	: "wqr0i2O******************************ANtO1TA="
 ```
 
 ---
@@ -215,7 +209,7 @@ catch (AuropayConnectError error)
 ---
 ## License
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the Unlicense License. See `LICENSE` for more information.
 
 
 <br />
